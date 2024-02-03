@@ -161,16 +161,16 @@ export const coins: Coin[] = [
     coinLogo: "https://bafybeievcwt2kef6olonvu4aaw2ud5tjezq567kqq7cijsquveim723fni.ipfs.nftstorage.link/",
     tokenName: "balance",
     tokenTicker: "$balance",
-    tokenAmount: "1,000",
+    tokenAmount: "21,000",
     tick: "Senshi",
     decimals: 9,
     nftAmount: "1",
     nftToTokenSwapAmount: 1,
-    tokenToNftSwapAmount: 1000,
+    tokenToNftSwapAmount: 21000,
     tokenDescription: "1000 Samurai",
     bridgeContract: "E8E6GvyCpbGu7YSFxfhTXGx6SW4VhzVmxWh3gbrgXZNd",
     tokenContract: "HbxiDXQxBKMNJqDsTavQE7LVwrTR36wjV2EaYEqUw6qH",
-    isToken22: true,
+    isToken22: false,
     // Ensure a marketplace link is last in the social media list
     socialMediaLinks: [
       {
@@ -190,8 +190,13 @@ export const coins: Coin[] = [
       },
       {
         name: "Solsniper",
-        url: "https://www.sniper.xyz/collection/senshi
+        url: "https://www.sniper.xyz/collection/senshi_samurai",
         icon: <SolsniperIcon />,
+      },
+      {
+        name: "Tensor",
+        url: "https://www.tensor.trade/trade/senshi_samurai",
+        icon: <TensorIcon />,
       },
       // Add other social media links here...
     ],
