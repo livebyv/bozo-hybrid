@@ -157,4 +157,43 @@ export const coins: Coin[] = [
     ],
   },
   // Add other coins
+    {
+    coinLogo: "https://bafybeievcwt2kef6olonvu4aaw2ud5tjezq567kqq7cijsquveim723fni.ipfs.nftstorage.link/",
+    tokenName: "balance",
+    tokenTicker: "$balance",
+    tokenAmount: "1,000",
+    tick: "Senshi",
+    decimals: 9,
+    nftAmount: "1",
+    nftToTokenSwapAmount: 1,
+    tokenToNftSwapAmount: 1000,
+    tokenDescription: "1000 Samurai",
+    bridgeContract: "E8E6GvyCpbGu7YSFxfhTXGx6SW4VhzVmxWh3gbrgXZNd",
+    tokenContract: "HbxiDXQxBKMNJqDsTavQE7LVwrTR36wjV2EaYEqUw6qH",
+    isToken22: true,
+    // Ensure a marketplace link is last in the social media list
+    socialMediaLinks: [
+      {
+        name: "X",
+        url: "https://twitter.com/datamancerIo",
+        icon: <TwitterIcon />,
+      },
+      {
+        name: "Discord",
+        url: "https://discord.gg/dgykbmDw",
+        icon: <DiscordIcon />,
+      },
+      {
+        name: "Magic Eden",
+        url: "https://magiceden.io/marketplace/senshi_samurai",
+        icon: <MagicEdenIcon />,
+      },
+      {
+        name: "Solsniper",
+        url: "https://www.sniper.xyz/collection/senshi
+        icon: <SolsniperIcon />,
+      },
+      // Add other social media links here...
+    ],
+  },
 ]
